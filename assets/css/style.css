@@ -26,7 +26,8 @@ body {
 }
 
 a {
-  color: #9b6a9c;
+  color: #9EA292;
+  /* replaced 9b6a9c */
 }
 
 a:hover {
@@ -186,12 +187,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   text-decoration: none;
-  color: #fffff0;
+  color: #9EA292;
 }
 
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
 /* change color */
-  color: #6a9c9b;
+  color: #9EA292;
+  /* replaced 6a9c9b */
 }
 
 /* Mobile Navigation */
@@ -303,7 +305,8 @@ section {
 }
 
 .section-bg {
-  background: #c6d9d9;
+  background: #9EA292;
+  /* replaced #c9d9d9 */
 }
 
 .section-wh {
@@ -337,6 +340,10 @@ section {
 .section-title p {
   margin-bottom: 0;
   font-size: 1rem;
+}
+
+.section-title .title-light{
+  color: #fffff0;
 }
 
 /*--------------------------------------------------------------
@@ -391,7 +398,7 @@ section {
 } */
 
 .passionproject h6{
-  color: #fff;
+  color: #fffff0;
   text-align: center;
   line-height: 1.2;
 }
@@ -399,7 +406,7 @@ section {
 .passionproject .card p {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #fff;
+  color: #fffff0;
   text-align: center;
 }
 
@@ -407,24 +414,30 @@ section {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #fff;
+  color: #fffff0;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .passionproject .card a:hover {
-  color: #fff;
+  color: #fffff0;
 }
 
 .passionproject .btn{
   background-color: #9b6a9c;
-  border-color: #ccc1cc;
+  border-color: #9EA292;
+  /* replaced ccc1cc */
+}
+
+.passionproject .btn:hover {
+  transition: scale(1.5):
 }
 
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+
 .skills .progress {
   height: 50px;
   display: block;

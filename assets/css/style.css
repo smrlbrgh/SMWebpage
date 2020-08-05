@@ -349,18 +349,15 @@ section {
 /*--------------------------------------------------------------
 # Hello
 --------------------------------------------------------------*/
+
 #hello dl a {
   color: blue;
-}
-
-#hello-subtitle{
-  color: #;
 }
 
 #hello .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #614051;
+  color: #796478;
 }
 
 #hello .content ul {
@@ -695,7 +692,8 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 50px;
-  background-image: linear-gradient(#9c6a84, #796478, #614051);
+  background-image: linear-gradient(#796478, #614051);
+  /* removed  #9c6a84 from line above */
 }
 
 .contact .info {

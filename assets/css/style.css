@@ -349,31 +349,35 @@ section {
 /*--------------------------------------------------------------
 # Hello
 --------------------------------------------------------------*/
-.hello-subtitle{
+#hello dl a {
+  color: blue;
+}
+
+#hello-subtitle{
+  color: #;
+}
+
+#hello .content h3 {
+  font-weight: 700;
+  font-size: 26px;
   color: #614051;
 }
 
-.hello .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #173b6c;
-}
-
-.hello .content ul {
+#hello .content ul {
   list-style: none;
   padding: 0;
 }
 
-.hello .content ul li {
+#hello .content ul li {
   padding-bottom: 10px;
 }
 
-.hello .content ul i {
+#hello .content ul i {
   font-size: 20px;
   padding-right: 2px;
 }
 
-.hello .content p:last-child {
+#hello .content p:last-child {
   margin-bottom: 0;
 }
 
